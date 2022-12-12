@@ -20,6 +20,8 @@ if (fs.existsSync("./config.yaml")) {
     chatGptRetryTimes: Number(process.env.CHAT_GPT_RETRY_TIMES),
     chatPrivateTiggerKeyword: process.env.CHAT_PRIVATE_TRIGGER_KEYWORD,
     openAIProxy: process.env.OPENAI_PROXY,
+    clearanceToken: "TVuVYrRhyHtHN2W7hYGv7r6SAh2ZpGtLWddmgIDm4hw-1670832084-0-160",
+    userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
   };
 }
 dotenv.config();
